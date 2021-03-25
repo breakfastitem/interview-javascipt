@@ -1,3 +1,32 @@
 body {
     text-align: center;
+   
+}
+p, button{
+    font-weight: 600;
+}
+
+button {
+    border-radius: 0px;
+    width: 150px;
+    height:100px;
+}
+button:hover {
+    background-color: aquamarine;
+    border-color:blue;
+}
+button:active {
+    background-color: darkblue;
+    border-color:blue;
+}
+button:focus {
+    outline: none;
+}
+
+#instructions {
+    font-size: x-large;
+}
+
+#results {
+    font-size: larger;
 }
