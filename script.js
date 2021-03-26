@@ -30,7 +30,7 @@ function handlePlay(event) {
 
     let message = "Too Bad, You Lost!";
 
-    if (rollNumbers[rollNumbers.length - 1] <= 1000) {
+    if (rollNumbers[rollNumbers.length - 1] <= MAX_WIN_NUMBER) {
         message = "Congratulations, You Won!"
     };
 
